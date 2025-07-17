@@ -32,6 +32,7 @@ public class Intro {
 		driver.get("https://rahulshettyacademy.com");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+		System.out.println("First code");
 		//driver.close();
 	}
 
