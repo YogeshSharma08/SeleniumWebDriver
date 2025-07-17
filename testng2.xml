@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="5">
+	
+	<listeners> <listener class-name="TestNgTutorials.Listenersi"/>
+	</listeners>
+	<parameter name="URL" value="qaclickacademy.com"></parameter>
+  <test name="Personal Loan" parallel="classes" thread-count="10">
+	  <groups>
+		  <run>
+			  <include name="Smoke"></include>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="TestNgTutorials.DayOne"/>
+      <class name="TestNgTutorials.DayTwo"/>
+      <class name="TestNgTutorials.DayFour"/>
+      <class name="TestNgTutorials.DayThree"/> 
+      
+    </classes>
+  </test>
+  
+  
+  
+</suite>
