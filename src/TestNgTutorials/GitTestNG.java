@@ -17,5 +17,11 @@ public class GitTestNG {
 	{
 		System.out.println("develop branch second change");
 	}
+	
+	@Test	
+	public  void firstChangeFromOther()
+	{
+		System.out.println("develop branch new  change");
+	}
 
 }
