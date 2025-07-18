@@ -23,5 +23,11 @@ public class GitTestNG {
 	{
 		System.out.println("develop branch new  change");
 	}
+	
+	@Test	
+	public  void lastChangeFromOther()
+	{
+		System.out.println("develop branch last  change");
+	}
 
 }
